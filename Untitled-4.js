@@ -29,6 +29,6 @@ sayInfo.call2(user,100)
          args.push(arguments[i])
      }
      target.fn(args.join(','));
-      delete target.fn; 
+      delete target.fn; //
  }
  test.$call(s,22);
